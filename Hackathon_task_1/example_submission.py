@@ -14,7 +14,7 @@ ENDPOINT = "task1"
 
 API_TOKEN = os.getenv("TEAM_TOKEN")
 SERVER_URL = os.getenv("SERVER_URL")
-PARQUET_FILE = "my_submission.parquet"
+PARQUET_FILE = "../preds/chebi_submission_final.parquet"
 
 def main():
     if not API_TOKEN:
